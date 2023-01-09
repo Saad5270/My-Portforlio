@@ -7,6 +7,7 @@
     <title>Tourism Pakistan</title>
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="forms.css">
 </head>
 <body>
     <nav>
@@ -25,54 +26,54 @@
     </nav>
 
     <form>
-        <fieldset>
+        <fieldset class="pers-info">
             <legend><b>Personal Information</b></legend>
             <label>First Name</label>
             <br>
-            <input required type="text" placeholder="First Name" name="fname" id="fname">
+            <input class="input-type-1" required type="text" placeholder="First Name" name="fname" id="fname">
             <br>
             <br>
 
             <label>Last Name</label>
             <br>
-            <input required type="text" placeholder="Last Name" name="lname" id="lname">
+            <input class="input-type-1" required type="text" placeholder="Last Name" name="lname" id="lname">
             <br>
             <br>
 
             <label>Email</label>
             <br>
-            <input required type="email" placeholder="Email Address" name="email" id="email">
+            <input class="input-type-1" required type="email" placeholder="Email Address" name="email" id="email">
             <br>
             <br>
 
             <label>Select your Gender</label>
             <br>
-            <input type="radio" name="gender" id="male">Male
-            <input type="radio" name="gender" id="female">Female
+            <input class="input-type-2" type="radio" name="gender" id="male">Male
+            <input class="input-type-2" type="radio" name="gender" id="female">Female
             <br>
             <br>
 
             <label>Contact Number</label>
             <br>
-            <input required type="text" placeholder="Contact Number" name="cnum" id="cnum" maxlength="11">
+            <input class="input-type-1" required type="text" placeholder="Contact Number" name="cnum" id="cnum" maxlength="11">
             <br>
             <br>
 
             <label>Residental Address</label>
             <br>
-            <input required type="text" placeholder="Current Address" name="haddress" id="haddress">
+            <input class="input-type-1" required type="text" placeholder="Current Address" name="haddress" id="haddress">
             <br>
             <br>
 
             <label>CNIC</label>
             <br>
-            <input required type="text" placeholder="CNIC" name="cnic" id="cnic" maxlength="13">
+            <input class="input-type-1" required type="text" placeholder="CNIC" name="cnic" id="cnic" maxlength="13">
             <br>
             <br>
 
             <label>Date of Birth</label>
             <br>
-            <input required type="date" placeholder="Date of Birth" name="dob" id="dob">
+            <input class="input-type-1" required type="date" placeholder="Date of Birth" name="dob" id="dob">
             <br>
             <br>
 
@@ -84,7 +85,7 @@
         </fieldset>
 
 
-        <fieldset>
+        <fieldset class="tour-fac">
             <legend><b>Tour Facilities</b></legend>
 
             <label>Select your Tour Type</label>
@@ -129,9 +130,15 @@
 
             <label>Anything else you want to add to your experience</label>
             <br>
-            <textarea placeholder="Upto 150 words" rows="5" cols="50"></textarea>
+            <textarea class="input-type-1" placeholder="Upto 150 words" rows="5" cols="50"></textarea>
         </fieldset>
+        
+        <div>
+            <input class="btn-submit" type="submit"  value="Submit"/>
+        </div>    
     </form>
+
+    
 
     <footer class="footer-section">
         <a class="home-link" href="../index.html"><img src="../images/Logo-img.png" alt="main logo" ></a>
