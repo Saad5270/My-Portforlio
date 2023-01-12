@@ -70,7 +70,7 @@ a{
     border: 1px solid black;
     border-radius: 12px;
     cursor: pointer;
-    
+    justify-content: space-between;
     height: 42px;
     width: 117px;
 }
@@ -82,9 +82,28 @@ a{
 
 .btn-white>i{
     font-size: 18px;
-    margin-left: 23px;
+    /* margin-left: 23px; */
+    
 }
 
+/* .btn-explore{
+    display: flex;
+    margin: 10px;
+    padding: 11px 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 117px;
+}
+
+.btn-explore:hover{
+    background-color: black;
+    color: white;
+} */
 nav{
     display: flex;
     justify-content: space-around;
@@ -116,10 +135,18 @@ nav{
     margin-right: 8px;
 }
 
+.title-heading{
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+
 .main-img-cont{
     margin-top: 20px;
     padding: 0 24px;
     position: relative;
+    margin-bottom: 40px;
     
 }
 .main-img{
@@ -128,15 +155,43 @@ nav{
     
 }
 
+
+.main-img-cont>.trip-plan{
+    position: absolute;
+    left: 50px;
+    bottom: 240px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 6px 6px 12px black;
+    padding-bottom:18px ;
+}
+
+.main-img-cont>.trip-plan-text{
+    position: absolute;
+    left: 50px;
+    bottom: 240px;
+    color: white;
+    text-shadow: 6px 6px 12px black;
+    font-size: 18px;
+    
+}
+
+/* .main-img-cont>.btn-explore{
+    
+    position: absolute;
+    left: 50px;
+    bottom: 240px;
+    
+    
+} */
+
+
 .main-heading{
     font-size: 40px;
     text-align: center;
     margin-right: 50px ;
     margin-left: 50px;
-    /* position: absolute;
-    left: 15px;
-    bottom: 92px;
-    color: white; */
+    
 }
 
 .main-text{
@@ -148,10 +203,17 @@ nav{
 }
 
 .search-cont{
-    background-color: #eff8ff;
+    /* background-color: #eff8ff; */
+    background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp");
     text-align: center;
-    padding: 30px 24px;
+    padding: 80px 24px;
+    color: white;
+        
+}
 
+.search-cont>h1{
+    text-shadow: 6px 6px 12px black;
+    
 }
 
 .search-bar{
@@ -160,8 +222,11 @@ nav{
     width: 530px;
     border-radius: 55px;
     font-size: 15px;
+    box-shadow: 6px 6px 12px black;
+    border: none;
     
 }
+
 
 .tour-img-head{
     /* display: flex;
