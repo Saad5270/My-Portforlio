@@ -75,7 +75,7 @@ nav{
 .main-div{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-top: 50px;
     /* background-color: aqua; */
 }
@@ -86,10 +86,7 @@ nav{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 450px;
-    width: 600px;
-    box-shadow: 2px 2px 4px grey;
-    
+    box-shadow: 2px 2px 4px grey; 
     margin: 40px;
     border-radius: 15px;
 }
@@ -145,4 +142,30 @@ nav{
 .main-2>p{
     font-size: 18px;
     color: white;
+}
+
+@media screen and (max-width: 1002px){
+    .main-div{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-1{
+        margin: 30px 10px;
+        width: 90%;
+        
+    }
+    .main-1>input{
+        
+        height: 40px;
+        width: 100%;
+        
+        
+    }
+
+    .main-2{
+        width: 90%;
+        padding: 50px;
+    }
+
 }

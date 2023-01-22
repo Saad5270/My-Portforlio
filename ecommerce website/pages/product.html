@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest</title>
+    <link rel="stylesheet" href="product.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+
+
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top d-flex justify-content-between d-flex justify-content-between "data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Rest.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="product.html">PRODUCTS</a>
+            <a class="nav-link" href="login.html">LOGIN</a>
+            
+        </div>
+    </div>
+    
+  </nav>
+
+  <!-- slider -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide " data-aos="zoom-out">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      
+
+      <div class="carousel-inner ">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_slider2.jpg?v=55511797161872150921450125496" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>New Products</h5>
+            <p>Check out our new products just now released.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_slider1.jpg?v=33019545256964476571450125496"  class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Discounts</h5>
+            <p>Get special discounts on our different products.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_details_bg.jpg?8465782533746222583" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Build</h5>
+            <p>Build your own designs from our website.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- new products -->
+    <div class="container mt-4">
+
+      <h1 class="product-head border-bottom my-4">New Products</h1>
+
+      <div class="row d-flex justify-content-between "data-aos="zoom-in-down">
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_phone1.jpg?v=13611229563112454751450125495" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Phone Bed</h5>
+              <span class="textCard mx-2 text-center">-</span> 
+              <span class="textCardPrice mx-2 text-center">$39</span>
+              <span class="price-cut text-center">$74</span>
+              
+                <select class="form-select col-4" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> 
+                <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_watch1.jpg?v=7253318717651583261450125495" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Watch Dock</h5>
+                <span class="textCard mx-2 text-center">-</span> 
+                <span class="textCardPrice mx-2 text-center">$39</span>
+                <span class="price-cut text-center">$74</span>
+              
+              <select class="form-select col-4" aria-label="Default select example">
+                <option selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select> 
+              <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_organizer1.jpg?v=34849662470692082731450125494" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Organizer Bed</h5>
+                <span class="textCard mx-2 text-center">-</span> 
+                <span class="textCardPrice mx-2 text-center">$39</span>
+                <span class="price-cut text-center">$74</span>
+              
+                <select class="form-select col-4" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> 
+                <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_phone1.jpg?v=13611229563112454751450125495" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Phone Bed</h5>
+              <span class="textCard mx-2 text-center">-</span> 
+              <span class="textCardPrice mx-2 text-center">$39</span>
+              <span class="price-cut text-center">$74</span>
+              
+                <select class="form-select col-4" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> 
+                <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_watch1.jpg?v=7253318717651583261450125495" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Watch Dock</h5>
+                <span class="textCard mx-2 text-center">-</span> 
+                <span class="textCardPrice mx-2 text-center">$39</span>
+                <span class="price-cut text-center">$74</span>
+              
+              <select class="form-select col-4" aria-label="Default select example">
+                <option selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select> 
+              <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_organizer1.jpg?v=34849662470692082731450125494" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Organizer Bed</h5>
+                <span class="textCard mx-2 text-center">-</span> 
+                <span class="textCardPrice mx-2 text-center">$39</span>
+                <span class="price-cut text-center">$74</span>
+              
+                <select class="form-select col-4" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> 
+                <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+        
+      </div>
+
+        
+    </div>
+
+    <!-- featured products -->
+    <div class="container mt-4">
+
+      <h1 class="product-head border-bottom my-4">Featured Products</h1>
+
+      <div class="row d-flex justify-content-between" data-aos="fade-up">
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_phone1.jpg?v=13611229563112454751450125495" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Phone Bed</h5>
+              <span class="textCard mx-2 text-center">-</span> 
+              <span class="textCardPrice mx-2 text-center">$39</span>
+              <span class="price-cut text-center">$74</span>
+              
+                <select class="form-select col-4" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> 
+                <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_watch1.jpg?v=7253318717651583261450125495" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Watch Dock</h5>
+                <span class="textCard mx-2 text-center">-</span> 
+                <span class="textCardPrice mx-2 text-center">$39</span>
+                <span class="price-cut text-center">$74</span>
+              
+              <select class="form-select col-4" aria-label="Default select example">
+                <option selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select> 
+              <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_organizer1.jpg?v=34849662470692082731450125494" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Organizer Bed</h5>
+                <span class="textCard mx-2 text-center">-</span> 
+                <span class="textCardPrice mx-2 text-center">$39</span>
+                <span class="price-cut text-center">$74</span>
+              
+                <select class="form-select col-4" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> 
+                <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_phone1.jpg?v=13611229563112454751450125495" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Phone Bed</h5>
+              <span class="textCard mx-2 text-center">-</span> 
+              <span class="textCardPrice mx-2 text-center">$39</span>
+              <span class="price-cut text-center">$74</span>
+              
+                <select class="form-select col-4" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> 
+                <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_watch1.jpg?v=7253318717651583261450125495" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Watch Dock</h5>
+                <span class="textCard mx-2 text-center">-</span> 
+                <span class="textCardPrice mx-2 text-center">$39</span>
+                <span class="price-cut text-center">$74</span>
+              
+              <select class="form-select col-4" aria-label="Default select example">
+                <option selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select> 
+              <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-lg col-md-12 col-sm-12 m-1 ">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_product_organizer1.jpg?v=34849662470692082731450125494" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Organizer Bed</h5>
+                <span class="textCard mx-2 text-center">-</span> 
+                <span class="textCardPrice mx-2 text-center">$39</span>
+                <span class="price-cut text-center">$74</span>
+              
+                <select class="form-select col-4" aria-label="Default select example">
+                  <option selected>0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> 
+                <a href="#" class="bg-dark mt-2 btn btn-primary d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</a>
+              
+              
+              
+            </div>
+          </div>
+
+
+        </div>
+
+        
+      </div>
+
+        
+    </div> 
+
+    
+
+  
+
+
+
+
+    <!-- footer -->
+    <footer class="mt-5 container d-flex justify-content-between">
+      <p>© COPYRIGHT 2023 REST. ALL PRICES ARE IN USD.</p>
+
+      <ul>
+          <li><a href="">TERMS</a></li>
+          <li><a href="">PRIVACY</a></li>
+          <li><a href="">CONTACT</a></li>
+          <li><a href="">BUILD YOURS</a></li>
+      </ul>
+
+    </footer>
+
+
+    
+
+
+
+
+
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
