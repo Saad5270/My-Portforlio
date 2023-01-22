@@ -1,0 +1,26 @@
+.head-spacing{
+    margin-top: 86px;
+}
+table{
+    width: 100%;
+    /* border: 1px solid black; */
+    border-spacing: 5px;
+    margin: 5px;
+    padding: 0 24px;
+    
+}
+
+td{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 6px;
+    background-color:#e3f0e3;
+
+}
+
+th{
+    color: white;
+    font-size: 16px;
+    background-color: #084096;
+    /* border-bottom: 1px solid grey; */
+}

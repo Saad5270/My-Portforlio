@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Apercu-Regular;
+    src: url("fonts/FontsFree-Net-ApercuRegular.ttf");
+}
+*{
+    font-family: 'Apercu-Regular';
+    
+} 
+
+
+
+.main-sect{
+    /* background-color: #2d2f32; */
+    background: url("https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_slider2.jpg?v=55511797161872150921450125496");
+    color: white;
+    height: 600px;
+    position: relative;
+}
+.navbar{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px !important;
+}
+
+.nav-link{
+    margin: 2px;
+    
+    
+}
+
+.navbar-toggler-icon{
+ /* background-color: white !important; */
+}
+
+.navbar-nav>a{
+    color: white !important;
+}
+
+
+.text-heading>h1{
+    font-size: 90px;
+}
+
+.flip{                 
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
+
+.cardHead{
+    font-size: 36px;
+    color: #4a8bd4;
+
+}
+
+.card-body>h5{
+    display: inline;
+    
+  }
+
+.textCard{
+    font-size: 20px;
+    color: grey;
+  }
+
+.textCardPrice{
+    font-size: 20px;
+    color: #4a8bd4;
+}
+
+.price-cut{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: grey;
+}
+.card{
+    border: none !important;
+}
+.btn{
+    display: block !important;
+    color: #b6b6b6 !important;
+    background-color: #f6f6f6 !important;
+    border: none !important;
+}
+
+.bar-sect{
+    background-color: #f7f6f2;
+    margin: 5px;
+}
+
+.list-sect{
+    
+    background: #e7e7e7 url("https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_details_bg.jpg?8465782533746222583") no-repeat;
+    padding: 80px 60px 90px !important;
+    background-position: 30% 50%;
+    background-size: cover;
+    
+}
+
+.list-sect>div>div>i{
+    display: inline;
+    font-size: 38px;
+    color: #4a8bd4;
+}
+
+.list-sect>div>div>h3{
+    color: #4a8bd4;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.list-sect>div>div>p{
+    display: inline-block;
+    
+}
+
+.list-sect>div>div>ul{
+    list-style-type: circle;
+    
+}
+
+.list-sect>div>div>ul>li{
+    font-size: 16px;
+    line-height: 50px;
+       
+}
+
+.last-sect{
+    background: url("https://cdn.shopify.com/s/files/1/0823/7125/t/6/assets/homepage_about_bg.jpg?8465782533746222583") 50% no-repeat;
+    background-size: cover;
+    height: 750px;;
+    overflow: auto;
+}
+
+.last-sect>i{
+    font-size: 45px;
+    color: #4a8bd4;
+}
+
+.last-sect>h1{
+    font-size: 36px;
+    color: #4a8bd4;
+}
+
+.last-sect>p{
+    font-size: 18px;
+    margin-right: 182px;
+    margin-left: 182px;
+    display: inline-block;
+}
+
+footer{
+    font-size: 12px;
+}
+footer>ul{
+    list-style: none;
+}
+
+footer>ul>li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

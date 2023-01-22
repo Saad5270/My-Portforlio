@@ -1,0 +1,91 @@
+.navbar{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px !important;
+}
+
+.nav-link{
+    margin: 2px;
+    
+    
+}
+
+.navbar-toggler-icon{
+ background-color: white !important;
+}
+
+.navbar-nav>a{
+    color: white !important;
+}
+
+.carousel-item >img{
+    height: 650px;
+    margin-top: 80px;
+    /* background-repeat: no-repeat; */
+}
+
+.carousel-item>p{
+    text-shadow: 1px 1px 1px black;
+}
+.product-head{
+    font-size: 35px;
+}
+.card-body>h5{
+    display: inline;
+    
+  }
+
+.textCard{
+    font-size: 20px;
+    color: grey;
+  }
+
+.textCardPrice{
+    font-size: 20px;
+    color: #4a8bd4;
+}
+
+.price-cut{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.card-body>a{
+    border: none !important;
+}
+
+.card-body>a>i{
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+footer{
+    font-size: 12px;
+}
+footer>ul{
+    list-style: none;
+}
+
+footer>ul>li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
