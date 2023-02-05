@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Atkinson-Regular;
+    src: url("fonts/AtkinsonHyperlegible-Regular.ttf");
+}
+
+*{
+    font-family: 'Atkinson-Regular';
+}
+
+
+.card{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.button{
+    background: rgba(0, 0, 0, 0.685);;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.button:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    opacity: 95%;
+}
+
+.twoMobs{
+    display: flex;
+    align-items: center;
+}
+
+
+h2{
+    padding: 0;
+    margin: 1px;
+}
+
+h3{
+    padding: 0;
+    margin: 1px;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.685);
+    height: 500px;
+    justify-content: center;
+
+    
+}
+
+.mobile:hover{
+    cursor: not-allowed;
+}
+
+.mobile2{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgba(0, 0, 0, 0.685);
+    height: 500px;
+    
+}
+
+.mobile2:hover{
+    cursor: not-allowed;
+}
+
+.mobile2>.imgInp{
+    border: 2px solid lightblue;
+}
+
+.space{
+    
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+.accuracy{
+    display: inline-block;
+    border:5px solid lightgreen;
+    border-radius: 40px;
+    padding: 15px;
+    margin: 5px auto;
+    font-weight: 900;
+    
+}
+
+.mobilex{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.685);
+    height: 500px;
+    justify-content: center;
+}
+
