@@ -104,6 +104,7 @@ h3{
 }
 
 .mobilex{
+    
     display: flex;
     flex-direction: column;
     width: 270px;
@@ -116,3 +117,13 @@ h3{
     justify-content: center;
 }
 
+.next{
+    display: table;
+    /* display: flex; */
+    background-color: #4a8bd4;
+    border-radius: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
