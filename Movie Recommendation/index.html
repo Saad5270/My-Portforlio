@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Movie Recommendation App</title>
+</head>
+<body>
+    
+    <div class="search-sect">
+        <div>
+            <label for="genre">GENRE</label>
+            <select name="genre" id="genreId">
+                <option value="Select">Select</option>
+                <option value="action">Action</option>
+                <option value="Science Fiction">Sci-Fi</option>
+                <option value="horro">Horror</option>
+                <option value="crime">Crime</option>
+            
+            </select>
+        </div>
+
+        <div>
+        <label for="year">YEAR</label>
+            <select name="year" id="yearId">
+                <option value="Select">Select</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+            
+            </select>
+        </div>
+
+        <div>
+            <label for="lanuages">LANGUAGES</label>
+            
+            <select name="languages" id="languagesId">
+                <option value="Select">Select</option>
+                <option value="English">English</option>
+                <option value="Japanese">Japanese</option>
+                <option value="French">French</option>
+                <option value="Spanish">Spanish</option>
+                
+            
+            </select>
+        </div>
+
+
+        <!-- <div> 
+
+            <label for="vote_average">RATINGS</label>
+            <select name="ratings" id="ratingsId">
+                <option value="Select">Select</option>
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+            
+            </select> 
+
+        </div>   -->
+    </div>    
+
+    <div class="btn-div">
+        <button id="searchBtn">Search</button>
+
+    </div>
+
+
+    <div class="display-area">
+        <div class="rank" id="rank">
+            <h3>RANK</h3>
+            
+        </div>
+
+        <div class="movie" id="movie">
+            <h3>MOVIE</h3>
+            <ul class="movie-title" id="movie-names" style=" list-style-type: none">
+
+            </ul>
+        </div>
+
+        <div class="year" id="year">
+            <h3>YEAR</h3>
+            <ul class="movie-title" id="year-released" style=" list-style-type: none">
+
+            </ul>
+
+        </div>
+        
+
+    </div>
+
+
+    <script src="assignment3.js"></script>
+</body>
+</html>
