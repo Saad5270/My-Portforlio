@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("Assets/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+}
+
+*{
+
+    font-family:'Nunito',sans-serif ;
+}
+.main-intro{
+    background-image: url('Assets/main-back-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 500px;
+    text-align: center;
+}
+
+.main-intro>h1{
+    color: white;
+}
+
