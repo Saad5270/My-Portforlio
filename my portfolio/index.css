@@ -7,15 +7,42 @@
 
     font-family:'Nunito',sans-serif ;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.btn-1{
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px 5px;
+    background-color: #96bb7c !important;
+    color: white !important;
+    border-radius: 30px;
+}
+
+.btn-sec{
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 20px 5px;
+    background-color: #6c757d ;
+    color: white !important;
+    border-radius: 30px;
+}
 .main-intro{
     background-image: url('Assets/main-back-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     height: 500px;
     text-align: center;
 }
@@ -23,4 +50,97 @@
 .main-intro>h1{
     color: white;
 }
+
+.navbar{
+    background-color: white;
+    display: flex;
+    align-items: center !important;
+    justify-content: space-around !important; 
+    /* padding: 0 10px !important; */
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    box-shadow: 2px 2px 4px grey;
+
+
+}
+.navbar>ul{
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: space-between;
+}
+.navbar>ul>li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 5px;
+    font-size: 18px;
+}
+.my-logo{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.my-logo>h1{
+    color: black;
+    font-size: 30px;
+}
+
+.pers-bio{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-image: url('Assets/saad1.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.circle-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 7px solid greenyellow;
+    border-radius: 500px;
+    margin: 0 5px;
+    /* background-color: whitesmoke; */
+}
+
+.skill-sect{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-heading{
+    text-align: center;
+}
+
+.project-head{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: #fff; 
+    font-weight: bold;
+
+}
+
+.project-descrp{
+    /* font-size: 18px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    color: #fff; 
+    font-weight: bold;
+}
+
+
+
+
 
