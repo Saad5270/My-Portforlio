@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url("C:\Users\saad5\Desktop\Tourism in Pakistan(Saad Ibrahim)\Tourism in Pakistan(Saad Ibrahim)\fonts\Poppins\Poppins-Medium.ttf");
+}
+
+*{
+
+    font-family:'Poppins-Medium',sans-serif ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    display: inline-block;
+    margin: 20px;
+    border-radius: 48px;
+    padding: 21px 16px;
+    background-color: #0969a1;
+    color: white;
+    font-size: 20px;
+    width: 185px;
+   
+}
+
+.btn:hover{
+    box-shadow: 6px 6px 12px black;
+    opacity: 96%;
+}
+
+.sec-btn{
+    display: inline-block;
+    margin: 20px;
+    border-radius: 48px;
+    padding: 21px 16px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    width: 185px;
+    text-align: center;
+
+}
+
+.sec-btn:hover{
+    box-shadow: 6px 6px 12px black;
+    opacity: 96%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 4px grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+.logo-img>img{
+    
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+
+.main-1{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 4px grey; 
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.main-1>h1{
+    margin: 0;
+}
+
+.main-1>input{
+    margin: 5px;
+    padding: 10px;
+    height: 40px;
+    width: 450px;
+    border: none;
+    border-radius: 15px;
+    background-color: #e3f0e3;
+    
+}
+
+.main-1>p{
+    color: grey;
+}
+
+.links-main{
+    display: flex;
+    /* background-color: blue; */
+    
+}
+
+.links-main>a{
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.main-2{
+    display: flex;
+    flex-direction: column;
+    background-color:#07d698;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    width: 300px;
+    
+}
+
+.main-2>h1{
+    margin: 10px;
+    color: white;
+}
+
+.main-2>p{
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 1002px){
+    .main-div{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-1{
+        margin: 30px 10px;
+        width: 90%;
+        
+    }
+    .main-1>input{
+        
+        height: 40px;
+        width: 100%;
+        
+        
+    }
+
+    .main-2{
+        width: 90%;
+        padding: 50px;
+    }
+
+}
