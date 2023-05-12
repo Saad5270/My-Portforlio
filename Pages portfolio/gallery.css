@@ -1,13 +1,5 @@
 
-@font-face {
-    font-family: Poppins-Medium;
-    src: url("../Assets/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
-}
 
-*{
-
-    font-family:'Nunito',sans-serif ;
-}
 
 .gallery-main-sect{
     margin: 0 30px;

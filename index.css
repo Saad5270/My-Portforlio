@@ -316,6 +316,7 @@ nav{
 .foot{
     background: #efefef;
     padding: 70px 0px;
+    margin: 0 !important;
 }
 
 .foot>div>div>h3{
