@@ -38,10 +38,26 @@
         <li class="nav-content"><a href="#portfolio"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
         <li class="nav-content"><a href="#contact"><i class="fa-solid fa-phone"></i>Contact</a></li>
       </ul>
+
+      <div class="nav-small">
+        <button onclick="visibleNav()" class="nav-btn"><i id="smallNav" class="fa-solid fa-bars"></i></button>
+      </div>
     </div>
   </nav>
   
-  <div class="main-intro container-fluid">
+  <div id="navDiv" class="container-fluid nav-column">
+    <ul>
+      <li class="nav-contentX"><a href="index.html">Home</a></li>
+      <li class="nav-contentX"><a href="#about-me">About</a></li>
+      <li class="nav-contentX"><a href="#portfolio">Portfolio</a></li>
+      <li class="nav-contentX"><a href="#resume">Resume</a></li>
+      <li class="nav-contentX"><a href="#portfolio">Projects</a></li>
+      <li class="nav-contentX"><a href="#contact">Contact</a></li>
+    </ul>
+
+  </div>
+
+  <div id="mainIntro" class="main-intro container-fluid">
     <h1 data-aos="fade-up" data-aos-duration="1000">I'm Saad Ibrahim <br>A Front-end Developer</h1>
   </div>
   
@@ -55,8 +71,9 @@
 
       <div id="about-me" class="col-lg-7 col-md-12">
         <h1>My Bio</h1>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-          <br>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+        <p>My name is Saad Ibrahim, and I am a dedicated Computer Science student in the final year of my bachelor's degree. With a strong work ethic and a focus on efficiency, I am a smart worker who strives to deliver high-quality results. I possess a keen eye for detail, ensuring precision in my work.<br><br>
+          Both independent and collaborative, I excel in working autonomously while also being an effective team player. I embrace challenges with a flexible and adaptable mindset, continuously seeking opportunities to expand my skills and knowledge. Keeping up with the ever-evolving technology landscape, I am eager to learn and apply new technologies and frameworks to enhance my capabilities.<br><br>
+          I am now seeking a professional opportunity where I can leverage my skills and contribute to meaningful projects. With my dedication and passion for computer science, I am confident in making a positive impact in a dynamic work environment.
         </p>
 
         <div class="skill-sect" data-aos="fade-up">
@@ -77,7 +94,7 @@
         </div>
 
         <a class="btn-1" href="#contact">HIRE ME</a>
-        <a class="btn-sec" href="#">DOWNLOAD CV</a>
+        <a class="btn-sec" href="resume file/Saad Ibrahim Resume.pdf" target="_blank" download>DOWNLOAD CV</a>
       </div>
     </div>
 
@@ -109,7 +126,7 @@
             <a href="ecommerce website/index.html" target=”_blank”><img src="Assets/rest1.PNG"  class="d-block"style="width: 100%;" alt="..."></a>
             <div class="carousel-caption d-none d-md-block">
               <h2 class="project-head">REST</h2>
-              <p class="project-descrp">REST is an e-commerce website build for buying & customizing different wooden stands for accessories.<br>A design built using Bootstrap and custom CSS.<br>An simple and aesthetic design which grabs the attention of user.</p>
+              <p class="project-descrp">REST is an e-commerce website build for buying & customizing different wooden stands for accessories.<br>A design built using Bootstrap and custom CSS.<br>A simple and aesthetic design which grabs the attention of user.</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
@@ -146,19 +163,19 @@
         <div class="services-box">
           <i class="fa-solid fa-desktop"></i>
           <h3>Development</h3>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p>Skilled in HTML, CSS and JavaScript. Strong understanding of responsive design, cross-browser compatibility, and user experience.</p>
         </div>
 
         <div class="services-box">
           <i class="fa-solid fa-pen-nib"></i>
           <h3>Design</h3>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p>As a web developer, I'm constantly working behind the scenes to create and improve the digital landscapes of our online world.</p>
         </div>
 
         <div class="services-box">
           <i class="fa-solid fa-briefcase"></i>
           <h3>E-Commerce</h3>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p>Proficient in HTML, CSS, JavaScript, and various e-commerce frameworks. Strong problem-solving abilities and a passion for delivering high-quality solutions.</p>
         </div>
       </div>
     </div>    
@@ -172,7 +189,7 @@
 
           <div class="contact-sect" data-aos="flip-left" data-aos-duration="1000">
 
-            <h2 id="contact" class="main-head-marg">Contact Me</h2>
+            <h2 id="contact" class="head-marg">Contact Me</h2>
             
             <a class="conts"><i class="fa-solid fa-phone"></i>03368178638</a>
             <a class="conts" href="mailto: saadib1855@gmail.com"><i class="fa-regular fa-envelope"></i>saadib1855@gmail.com</a>
@@ -232,30 +249,31 @@
         
         <div class="col-lg-3 col-md-12">
           <h3>About Me</h3>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p>My name is Saad Ibrahim, and I am a dedicated Computer Science student in the final year of my bachelor's degree. With a strong work ethic and a focus on efficiency,
+             I am a smart worker who strives to deliver high-quality results. I possess a keen eye for detail, ensuring precision in my work.</p>
 
           <h3 class="marg-head">Connect</h3>
           <a class= "connect-links" href="https://github.com/Saad5270" target="_blank"><i class="fa-brands fa-github"></i></a>
-          <a class= "connect-links" href="https://github.com/Saad5270" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-          <a class= "connect-links" href="https://github.com/Saad5270" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a class= "connect-links" href="https://github.com/Saad5270" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a class= "connect-links" href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a class= "connect-links" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a class= "connect-links" href="https://www.linkedin.com/in/saad-ibrahim-63000619a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
 
         <div class="col-lg-3 col-md-12">
           <h3>Navigation</h3>
-          <a href="">HTML5</a>
-          <a href="">CSS3</a>
-          <a href="">Design</a>
-          <a href="">JavaScript</a>
+          <a href="#portfolio">HTML5</a>
+          <a href="#portfolio">CSS3</a>
+          <a href="#portfolio">Design</a>
+          <a href="#portfolio">JavaScript</a>
         </div>
 
         <div class="col-lg-3 col-md-12">
           <h3>Services</h3>
-          <a href="">Web Design</a>
-          <a href="">E-commerce</a>
-          <a href="">Front-end</a>
-          <a href="">Graphic Designer</a>
-          <a href="">Comic Book Artist</a>
+          <a href="#portfolio">Web Design</a>
+          <a href="#portfolio">E-commerce</a>
+          <a href="#portfolio">Front-end</a>
+          <a href="Pages portfolio/gallery.html">Graphic Designer</a>
+          <a href="Pages portfolio/gallery.html">Comic Book Artist</a>
         </div>
         
         <div class="col-lg-3 col-md-12">
@@ -280,6 +298,7 @@
     crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
     <script>
       AOS.init();
     </script>
