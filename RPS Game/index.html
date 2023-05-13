@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+
+    
+    <title>RPS</title>
+</head>
+<body>
+
+    <p id="winTie" class="results">Pick and Start!</p>   
+    <div class="main-game">
+        <div class="box">
+            <i id="userGenerated" class="fa-solid fa-hand-scissors"></i>
+
+
+        </div>
+
+        <div class="btn-div">
+            <button class="goBtn" onclick="startGame()">Start</button>
+            <a class="reBtn" href="index.html">Reset</a>
+            <span class="points" id="points">0</span>
+            <span class="score">Your Score</span>
+        </div>
+        
+        <div class="box">
+            <i id="compGenerated" class="fa-solid fa-ban"></i>
+
+        </div>
+
+        
+    </div>
+
+    
+    <div class="diff-btns">
+        <button onclick="scissor()"><i id="scissor" class="fa-solid fa-hand-scissors"></i></button>
+        <button onclick="rock()"><i id="rock" class="fa-solid fa-hand-back-fist"></i></button>
+        <button onclick="paper()"><i id="paper" class="fa-solid fa-hand"></i></button>
+    </div>
+    
+     
+
+    <script src="app.js"></script>
+</body>
+</html>
