@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task7.css">
+    <title>Task 7</title>
+</head>
+<body>
+    
+    <h1>Create a web page with a button that, when clicked, displays the current date and time in an alert box.
+
+        <button class="btn" onclick="currDateTime()">Show Date And Time</button>
+        <p id="lenghtField"></p>
+            
+            
+           </h1>
+        
+    
+        <script>
+            
+            function currDateTime(){
+                let lenghtField= document.getElementById('lenghtField');
+                let date= new Date();
+                let cuurentDateTime = date.toLocaleString();
+                lenghtField.innerHTML= cuurentDateTime;
+
+            }
+        </script>
+</body>
+</html>
