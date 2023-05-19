@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>RTE</title>
+</head>
+<body>
+    
+    <div class="not-responsive-tag">
+        <h3>Rich Text Editor</h3>
+    </div>   
+
+    <div class="main-doc">
+
+        <div class="btn-area">            
+            <button onclick="boldEvent()" id="boldBtn"><i class="fa-solid fa-bold"></i></button>
+            <button onclick="italicEvent()" id="italicBtn"><i class="fa-solid fa-italic"></i></button>
+            <button onclick="centerEvent()" id="centerBtn"><i class="fa-solid fa-align-center"></i></button>
+            <button onclick="rightEvent()" id="rightBtn"><i class="fa-solid fa-align-right"></i></button>
+            <button onclick="leftEvent()" id="leftBtn"><i class="fa-solid fa-align-left"></i></button>
+            <button onclick="justifyEvent()" id="justifyBtn"><i class="fa-solid fa-align-justify"></i></button>
+            <button onclick="underlineEvent()" id="underlineBtn"><i class="fa-solid fa-underline"></i></button>
+            
+            <div>
+                <button onclick="colorDiv()" ><i class="fa-solid fa-font"></i><i class="fa-solid fa-caret-down"></i></button>
+                
+                <div id="colorArea" class="color-area">
+                    <div class="cl1" onclick="colorChg('red')"></div>
+                    <div class="cl2" onclick="colorChg('blue')"></div>
+                    <div class="cl3" onclick="colorChg('green')"></div>
+                    <div class="cl4" onclick="colorChg('yellow')"></div>
+                    <div class="cl5" onclick="colorChg('lightblue')"></div>
+                    <div class="cl6" onclick="colorChg('pink')"></div>
+                    <!-- <input type="color" id="clPickerHighlight" class="clPicker" onclick="colorChg('1')"/> -->
+
+                </div>
+
+            </div>
+
+            <div>
+                <button onclick="highlightColorDiv()" ><i class="fa-solid fa-highlighter"></i><i class="fa-solid fa-caret-down"></i></button>
+                
+                <div id="highlightcolorArea" class="highlight-color-area">
+                    <div class="cl1" onclick="highlightColorChg('red')"></div>
+                    <div class="cl2" onclick="highlightColorChg('blue')"></div>
+                    <div class="cl3" onclick="highlightColorChg('green')"></div>
+                    <div class="cl4" onclick="highlightColorChg('yellow')"></div>
+                    <div class="cl5" onclick="highlightColorChg('lightblue')"></div>
+                    <div class="cl6" onclick="highlightColorChg('pink')"></div>
+                    <!-- <input type="range" id="clPicker" class="clPicker" onclick="highlightColorChg()"/> -->
+
+                </div>
+
+            </div>
+
+            <div>
+                <button onclick="backColorDiv()" ><i class="fa-solid fa-fill-drip"></i><i class="fa-solid fa-caret-down"></i></button>
+                
+                <div id="backcolorArea" class="back-color-area">
+                    <div class="cl1" onclick="backColorChg('red')"></div>
+                    <div class="cl2" onclick="backColorChg('blue')"></div>
+                    <div class="cl3" onclick="backColorChg('green')"></div>
+                    <div class="cl4" onclick="backColorChg('yellow')"></div>
+                    <div class="cl5" onclick="backColorChg('lightblue')"></div>
+                    <div class="cl6" onclick="backColorChg('pink')"></div>
+                    <!-- <input type="color" id="clPicker" class="clPicker" onclick="backColorChg()"/> -->
+
+                </div>
+
+            </div>
+
+            <button onclick="reset()"><i class="fa-solid fa-arrow-rotate-right"></i></button>
+
+        </div>
+        
+        <div id="textArea" class="text-area">    
+            <div id="textSect" class="text-div" contenteditable="true"></div>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
