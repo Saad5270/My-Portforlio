@@ -39,6 +39,10 @@
     color: white !important;
 }
 
+.navbar-toggler {
+    background-color: white !important;
+    color: white !important;
+}
 
 .text-heading>h1{
     font-size: 90px;
@@ -173,4 +177,30 @@ footer>ul>li>a{
 }
 
 
+@media only screen and (max-width: 768px) {
+    .text-heading>h1{
+        font-size: 30px;
+    }
 
+    .cardHead{
+        font-size: 20px;
+    }
+    footer>p{
+        display: inline-block;
+        text-align: center;
+    }
+    footer>ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer>ul>li{
+        margin: 5px 0;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

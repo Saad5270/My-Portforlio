@@ -66,18 +66,11 @@ a{
     margin: 40px 0;
 
 }
-
-@media (max-width: 765px) {
-
-    .main-game{
-        margin: 0 20px;
-    }
-    
-    .box{
-        padding: 40px;
-        margin: 20px 0;
-    }
+.btn-div-resp{
+    display: none;
 }
+
+
 
 div>i{
     font-size: 100px;
@@ -177,4 +170,27 @@ div>i{
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: grey;
+}
+
+@media (max-width: 765px) {
+    .results{
+        font-size: 40px;
+    }
+    .main-game{
+        margin: 0 10px;
+        flex-direction: column;
+    }
+    .btn-div{
+        display: none;
+    }
+    .btn-div-resp{
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        padding: 30px;
+        margin: 20px 0;
+    }
 }

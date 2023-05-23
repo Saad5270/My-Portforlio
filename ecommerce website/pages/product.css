@@ -1,3 +1,4 @@
+
 .navbar{
     color: white !important;
 }
@@ -21,9 +22,12 @@
 .navbar-nav>a{
     color: white !important;
 }
-
+.navbar-toggler {
+    background-color: white !important;
+    color: white !important;
+}
 .carousel-item >img{
-    height: 650px;
+    height: 500px;
     margin-top: 80px;
     /* background-repeat: no-repeat; */
 }
@@ -88,4 +92,37 @@ footer>ul>li{
 footer>ul>li>a{
     text-decoration: none;
     color: black;
+}
+
+
+@media (max-width: 768px) {
+    .product-head{
+        text-align: center;
+    }
+    
+    .prods-sect{
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin: 0 auto !important;
+        
+    }
+    footer>p{
+        display: inline-block;
+        text-align: center;
+    }
+    footer>ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer>ul>li{
+        margin: 5px 0;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }

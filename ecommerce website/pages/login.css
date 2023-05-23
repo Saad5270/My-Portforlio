@@ -20,9 +20,11 @@ body{
     
 }
 
-.navbar-toggler-icon{
- background-color: white !important;
+.navbar-toggler {
+    background-color: white !important;
+    color: white !important;
 }
+
 
 .navbar-nav>a{
     color: white !important;
@@ -104,4 +106,11 @@ footer>ul>li{
 footer>ul>li>a{
     text-decoration: none;
     color: white
+}
+
+@media (max-width: 768px) {
+    .login-part {
+        padding: 5px !important;
+        
+    }
 }
